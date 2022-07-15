@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-item {
+    position: relative; /* posicionamento dos elementos relativos a cada submenu */
+}
+
+.menu-item > .submenu.close {
+    display: none; /* submenu fechado */
+}
+
+.menu-item > .submenu.open {
+    display: flex; /* submenu aberto */
+    position: absolute; /* posiciona o menu aberto abaixo do item de menu relativo a ele */
+}
