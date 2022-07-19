@@ -166,8 +166,9 @@ main {
 }
 /* BANNER */
 
-/* CARROSEL 1 TÍTULO */
-#carrossel{
+/* SLIDE DE PRODUTOS TÍTULO */
+h2{
+    background-color: rgba(46, 125, 170, 0.5);
     text-align: center;
     font-family: sans-serif;
     font-weight: 700;
@@ -176,25 +177,9 @@ main {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-/* CARROSEL 1 TÍTULO */
+/* SLIDE DE PRODUTOS TÍTULO */
 
-/* CARROSSEL 1 CONTEÚDO */
-.box-carrossel{
-    font-family: 'Open Sans';
-    text-align: center;
-    font-size: 20px;
-    line-height: 41px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
-.conferir-btn{
-    text-decoration: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 17px;
-    color: #000000;   
-}
-/* CARROSSEL 1 CONTEÚDO */
+/* SLIDE DE PRODUTOS */
+
+/* SLIDE DE PRODUTOS */
