@@ -158,11 +158,9 @@ main {
 }
 
 /* BANNER */
-.banner{
+#banner{
     height: 600px;
     width: 100%;
-    background-image: url(img/banner.png);
-    background-repeat: no-repeat;
 }
 /* BANNER */
 
