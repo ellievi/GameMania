@@ -5,7 +5,7 @@
     list-style: none;
     text-decoration: none;
     font-family: Poppins, sans-serif !important;
-    background-size: cover;  
+    background-size: auto;  
 }
 
 body{
@@ -13,6 +13,7 @@ body{
 }
 
 /* MENU */
+
 .menu-item {
     position: relative; /* posicionamento dos elementos relativos a cada submenu */
 }
@@ -27,6 +28,7 @@ body{
 }
 
 .menu-area{
+    border-style: solid;
     height: 11vh;
     background-color: rgba(197, 221, 235, 1);
 }
@@ -126,7 +128,7 @@ body{
     width: 315px;
     height: auto;
     left: 500px;
-    top: 3px;
+    top: -180%;
 }
 
 #perfil-img{
@@ -161,6 +163,7 @@ main {
 
 /* BANNER */
 #banner{
+    margin-top: 4%;
     height: 600px;
     width: 100%;
 }
@@ -292,3 +295,26 @@ h2{
     cursor: pointer;
 }
 /* BANNER RODAPE */
+
+/* ICONS RODAPE */
+.icons-rodape{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icons-rodape-right{
+    margin-left: 4%;
+}
+/* ICONS RODAPE */
+
+/* RODAPE */
+footer{
+    border-style: solid;
+}
+
+.info-rodape{
+    display: flex;
+    flex-direction: row;
+}
+/* RODAPE */
