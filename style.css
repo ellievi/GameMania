@@ -9,7 +9,7 @@
 }
 
 body{
-    margin-bottom: 4rem;
+    margin-bottom: 1px;
 }
 
 /* MENU */
@@ -144,18 +144,31 @@ body{
     width: 104.41px;
     height: 39px;
     left: 1180px;
-    top: 22px;
+    top: 10px;
+
+    border-style: solid;
+    padding-bottom: 2.7%;
+    padding-top: 0.2%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color: #000000;
+    text-align: center;
 }
 
-
+.menu-link{
+    color: black;
+}
 /* MENU */
+
+/* SUBMENU */
+.submenu-item{
+    display: flex;
+    flex-direction: column;
+}
+/* SUBMENU */
 
 main {
     background-image: url(img/backgroundPagina.png);
@@ -316,7 +329,13 @@ footer{
 }
 
 .info-rodape{
+    word-spacing: 2px;
+    padding: 4px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+#logo-game-mania{
+    margin-top: -10%;
 }
 /* RODAPE */

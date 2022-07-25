@@ -19,7 +19,7 @@
 
                  <!-- PESQUISA -->
                  <img src="img/pesquisa.png" alt="Ícone de pesquisa: lupa" id="pesquisa-img">
-                 <input type="search" name="pesquisa" id="pesquisa">
+                 <input type="search" name="pesquisa" placeholder="Busque aqui" id="pesquisa">
                  <!-- PESQUISA -->
 
                 <!-- CARRINHO -->
@@ -63,13 +63,11 @@
                 <!-- PERFIL -->
 
                 <!-- LOGIN/CADASTRO -->
-                <a href="#" onclick="submenu(2)" class="menu-link" id="login-cadastro">Login/Cadastro</a>
-                <ul class="menu submenu close">
-                    <li class="submenu-item">
-                        <a href="login.html">LOGIN</a>
-                        <a href="cadastro.html">CADASTRO</a>
-                    </li>
-                </ul>
+                <span class="menu-link" id="login-cadastro">
+                    <a href="login.html" class="menu-link">Login</a>
+                    <br>
+                    <a href="cadastro.html" class="menu-link">Cadastro</a>
+                </span>
                 <!-- LOGIN/CADASTRO -->
                 
                 <hr id="hr2">
@@ -261,7 +259,8 @@
     <!----- BANNER RODAPE ----->
         <div class="banner-rodape">
             <picture>
-                <source media="(min-width: )" srcset="" type="image/">
+                <source media="(max-width: 535px)" srcset="img/banner-rodape-s.svg" type="image/">
+                <source media="(max-width: 900px)" srcset="img/banner-rodape-m.svg" type="image/">
                 <img src="img/banner-rodape.svg" alt="banner game mania">
             </picture>
         </div>
@@ -269,20 +268,19 @@
        
     <footer>
         <div class="icons-rodape">
-            <img src="img/instagram-icon.svg" alt="logo instagram">
-            <img src="img/facebook-icon.svg" alt="logo twitter" id="icons-rodape-right">
+            <a href="#"><img src="img/instagram-icon.svg" alt="logo instagram"></a>
+            <a href="" id="icons-rodape-right"><img src="img/facebook-icon.svg" alt="logo twitter"></a>
         </div>
 
         <div class="icons-rodape">
-            <img src="img/twitter-icon.svg" alt="logo instagram">
-            <img src="img/youtube-icon.svg" alt="logo twitter" id="icons-rodape-right">
+            <a href="#"><img src="img/twitter-icon.svg" alt="logo instagram"></a>
+            <a href="#" id="icons-rodape-right"><img src="img/youtube-icon.svg" alt="logo twitter"></a>
         </div>
 
         <div class="info-rodape">
             <p>©GAME MANIA. Todos os direitos reservados.</p>
-            <!-- <img src="img/game-mania-icon.svg" alt="Logo da game mania" id="logo-game-mania"> -->
-            <p>Política de Privacidade   |  Termos Legais  |  Acordo de Assinatura do Games Mania |  Cookies</p>
-            <p>Endereço: Rua...</p>
+            <img src="img/game-mania-icon.svg" alt="Logo da game mania" id="logo-game-mania">
+            <p>Política de Privacidade | Termos Legais  | Acordo de Assinatura do Games Mania | Cookies</p>
         </div>
     </footer>
 
