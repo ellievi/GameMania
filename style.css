@@ -322,16 +322,25 @@ h2{
 footer{
     background-color: white;
     border-style: solid;
+    padding: 2.3%;
 }
 
-.info-rodape{
+.info-rodape-1{
+    word-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-rodape-2{
     word-spacing: 2px;
     padding: 4px;
     display: flex;
     justify-content: center;
 }
 
-#logo-game-mania{
-    margin-top: -10%;
+.img-rodape{
+    margin-top: -13%;
+    display: flex;
+    justify-content: flex-end;
 }
 /* RODAPE */
