@@ -19,3 +19,18 @@ function submenu(index) {
 // btn.addEventListener('click', function () {
 //     submenuToggle(1);
 // });
+
+function submitform(event) {
+    //prevent event
+    event.preventDefault()
+ 
+    //convert event to object FormData
+    const formData = new FormData(event.target);
+    //Join keys and values in object
+    const formProps = Object.fromEntries(formData);
+    //show data
+    console.log(formProps)
+
+    //prevent reload page
+    return false;
+}

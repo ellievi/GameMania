@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-login.css">
+    <script src="index.js"></script>
     <title>Login Game Mania</title>
 </head>
 <body>
-    <section>
+    <form form onsubmit="return submitform(event)">
         <div class="login"> 
             <div class="login-visual">
-                <h1>TESTE</h1>
+                <picture>
+                    <h1>Se não possui conta, 
+                        <br>
+                        você pode se CADASTRAR 
+                        <br>
+                        clicando <a href="cadastro.html" id="text-lnk">AQUI</a></h1>
+                    <img src="img/ekko-img.svg" alt="">
+                </picture>
             </div>
         
             <div class="login-info">
-                <input type="email" name="email" placeholder="Digite seu email">Email
-                <input type="password" name="password" placeholder="Digite sua senha">Senha
+                <picture>
+                    <img src="img/game-mania-team.svg" alt="" id="gamemania-team-img">
+                </picture>
+                <div class="login-info login-info-box">
+                    Email<input type="email" name="email" placeholder="Digite seu email">
+                    Senha<input type="password" name="password" placeholder="Digite sua senha">
+                    <input type="submit" value="LOGIN" id="login-btn">
+                    <p id="forgot-password"><a href="#">Esqueci a senha</a></p>
+                </div>
             </div>
         </div>
-    </section>
+    </form>
 </body>
 </html>

@@ -8,7 +8,7 @@ body{
     background-image: url(img/bakcground-login-cadastro.png);
 }
 
-.login{
+.cadastro{
     background-color: rgba(2, 2, 2, 0.74);
     color: white;
     display: flex;
@@ -19,26 +19,26 @@ body{
     margin-right: 9%;
 }
 
-.login-visual{
+.cadastro-visual{
     padding: 12px;
     color: rgb(166, 255, 225);
     font-size: 24px;
     font-style: normal;
 }
 
-.login-info{
+.cadastro-info{
     margin-right: 10%;
     display: flex;
     flex-direction: column;
 }
 
-.login-info .login-info-box{
+.cadastro-info .cadastro-info-box{
     display: flex;
     font-weight: bold;
     margin: -8px;
 }
 
-.login-info .login-info-box input{
+.cadastro-info .cadastro-info-box input{
     font-weight: bold;
     border-radius: 8px;
     margin-top: 5px;
@@ -64,7 +64,7 @@ h1{
     margin-left: -5%;
 }
 
-#login-btn{
+#cadastro-btn{
     cursor: pointer;
     background-color: rgba(139, 55, 55, 0.747);
     color: white;
@@ -74,18 +74,5 @@ h1{
     border-color: rgba(139, 55, 55, 0.747);
     margin: 10px;
     padding: 5px;
-}
-
-
-#forgot-password a{
-    margin-top: 4%;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(166, 255, 225);
-}
-
-#forgot-password a:hover{
-    color: rgb(224, 102, 102);
+    font-size: 15px;
 }

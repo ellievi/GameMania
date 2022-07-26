@@ -1,13 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <link rel="stylesheet" href="style-cadastro.css">
+    <script src="index.js"></script>
+    <title>Cadastro Game Mania</title>
 </head>
 <body>
-    <h1>Página de cadastro</h1>
-    
+    <form onsubmit="return submitform(event)">
+        <div class="cadastro"> 
+            <div class="cadastro-visual">
+                <picture>
+                    <h1>Se já possui conta, 
+                        <br>
+                        você pode fazer LOGIN 
+                        <br>
+                        clicando <a href="login.html" id="text-lnk">AQUI</a></h1>
+                    <img src="img/ekko-img.svg" alt="">
+                </picture>
+            </div>
+        
+            <div class="cadastro-info">
+                <picture>
+                    <img src="img/game-mania-team.svg" alt="" id="gamemania-team-img">
+                </picture>
+                <div class="cadastro-info cadastro-info-box">
+                    Nome de usuário<input type="text" name="nome-usuario" placeholder="Digite um nome de usuário" required>
+                    Email<input type="email" name="email" placeholder="Digite seu email" required>
+                    Senha<input type="password" name="password" placeholder="Digite sua senha" required>
+                    <input type="submit" value="CADASTRO" id="cadastro-btn">
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
