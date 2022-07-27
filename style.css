@@ -264,6 +264,7 @@ h2{
 
 /* SLIDE DE DESCONTOS*/
 .titulo-desconto{
+    margin-top: 2%;
     margin-left: 30%;
     text-align: center;
     width: 35%;
@@ -277,8 +278,8 @@ h2{
     border-color: #000000;
 }
 
-#titulo-desconto-pc{
-    bottom: 1px;
+.titulo-desconto-pc{
+    margin-left: 32%;
 }
 
 .info-produto-item + .info-produto-descontos{
