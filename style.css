@@ -14,7 +14,7 @@ body{
 
 /* MENU */
 
-.menu-item {
+.menu-item{
     position: relative; /* posicionamento dos elementos relativos a cada submenu */
 }
 
@@ -33,6 +33,17 @@ body{
     background-color: rgba(197, 221, 235, 1);
 }
 
+/* SUBMENU */
+.submenu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+/* FIM SUBMENU */
+
+
+/* MENU */
 #sac-img{
     position: absolute;
     width: 50px;
@@ -132,7 +143,7 @@ body{
     width: 43px;
     height: 46px;
     left: 1100px;
-    top: 10px;
+    top: 12px;
 }
 
 #login-cadastro{
@@ -159,12 +170,6 @@ body{
 }
 /* MENU */
 
-/* SUBMENU */
-.submenu-item{
-    display: flex;
-    flex-direction: column;
-}
-/* SUBMENU */
 
 main {
     background-image: url(img/backgroundPagina.png);
