@@ -1,4 +1,4 @@
-function submenu(index) {
+function submenuToggle(index) {
     const submenu = document.querySelectorAll('.menu-item > .menu')[index];
 
     if (!submenu) {
