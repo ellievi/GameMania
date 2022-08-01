@@ -14,12 +14,6 @@ function submenuToggle(index) {
     }
 }
 
-// const btn = document.getElementById('btn');
-
-// btn.addEventListener('click', function () {
-//     submenuToggle(1);
-// });
-
 function submitform(event) {
     //prevent event
     event.preventDefault()
