@@ -235,6 +235,7 @@ h2{
     width:250px;
     height:150px;
     position: relative;
+    overflow: hidden;
 }
 
 .container-produtos-item + .container-produtos-item{
@@ -263,9 +264,15 @@ h2{
 }
 
 .nxt-btn , .pre-btn{
+    opacity: 0.2;
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.nxt-btn:hover , 
+.pre-btn:hover{
+    opacity: 1;
 }
 
 .conferir-btn{
@@ -276,6 +283,22 @@ h2{
     font-size: 16px;
     font-weight: bold;
 }
+
+.produtos-games{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.produtos-games::-webkit-scrollbar{
+    display: none;
+}
+
 /* SLIDE DE PRODUTOS */
 
 
