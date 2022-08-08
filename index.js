@@ -28,3 +28,8 @@ function submitform(event) {
     //prevent reload page
     return false;
 }
+
+// pre/nxt btn function
+const productsContainer = document.querySelectorAll('.container-produtos');
+const nxtBtn = document.querySelectorAll('.nxt-btn');
+const preBtn = document.querySelectorAll('.pre-btn');
