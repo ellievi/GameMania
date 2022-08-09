@@ -33,3 +33,20 @@ function submitform(event) {
 const productsContainer = document.querySelectorAll('.container-produtos');
 const nxtBtn = document.querySelectorAll('.nxt-btn');
 const preBtn = document.querySelectorAll('.pre-btn');
+
+productsContainer.forEach((item,i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidht = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click',() => {
+        item.scrollLeft += containerWidht;
+    })
+    
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidht;
+    })
+})
+
+
+
+// console.log(productsContainer.length);
