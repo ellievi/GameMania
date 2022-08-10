@@ -34,9 +34,9 @@ const productsContainer = document.querySelectorAll('.container-produtos');
 const nxtBtn = document.querySelectorAll('.nxt-btn');
 const preBtn = document.querySelectorAll('.pre-btn');
 
-productsContainer.forEach((item,i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidht = containerDimensions.width;
+productsContainer.forEach((item,i) => { // '' => '' reduct the ''function'' 
+    let containerDimensions = item.getBoundingClientRect(); //return the size of an element and your relative position to viewport
+    let containerWidht = containerDimensions.width; //reading the ''container dimensions'' width
 
     nxtBtn[i].addEventListener('click',() => {
         item.scrollLeft += containerWidht;
@@ -46,7 +46,3 @@ productsContainer.forEach((item,i) => {
         item.scrollLeft -= containerWidht;
     })
 })
-
-
-
-// console.log(productsContainer.length);
