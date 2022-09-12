@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-login.css">
+    <script src="index.js"></script>
+    <title>Login Game Mania</title>
+</head>
+<body>
+    <form form onsubmit="return submitform(event)">
+        <div class="login"> 
+            <div class="login-visual">
+                <picture>
+                    <h1>Se não possui conta, 
+                        <br>
+                        você pode se CADASTRAR 
+                        <br>
+                        clicando <a href="cadastro.html" id="text-lnk">AQUI</a></h1>
+                    <a href="index.html"><img src="img/ekko-img.svg" alt=""></a>
+                </picture>
+            </div>
+        
+            <div class="login-info">
+                <picture>
+                    <img src="img/game-mania-team.svg" alt="" id="gamemania-team-img">
+                </picture>
+                <div class="login-info login-info-box">
+                    Email<input type="email" name="email" placeholder="Digite seu email" required>
+                    Senha<input type="password" name="password" placeholder="Digite sua senha" required>
+                    <input type="submit" value="LOGIN" id="login-btn">
+                    <p id="forgot-password"><a href="#">Esqueci a senha</a></p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
